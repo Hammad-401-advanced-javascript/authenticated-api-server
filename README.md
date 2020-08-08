@@ -5,12 +5,25 @@
 ## Resourcs 
 * Heroku : https://authenticated.herokuapp.com/
 
+## Models
+
+### server.js
+### 404.js
+### 500.js
+
 ## Setup
+* PORT - Port Number
+* MONGODB_URI - mongoDB url
+* SECRET - token secret
+* CLIENT_ID - for github
+* CLIENT_SECRET - for github
+* EXPIRE - time for token to expire
+* AUTH - t start/stop the autherization & athentication ('ON' or 'OFF)
 
 * PORT = 4000
 
-**To run the app you should do this steps :**
-
+**How to initialize/run your application :**
+* npm start
 * sign up : http://localhost:3000/signup
 * sign in : http://localhost:3000/signin
 
